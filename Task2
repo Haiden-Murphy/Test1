@@ -1,0 +1,20 @@
+/*
+ * RandomNumbers1
+ * Haiden Murphy Nov 4 2020
+ * Make random numbers 
+ */
+
+//Declare variables
+int value = 0;
+String words = "is your random number";
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+      value = random(1, 21);
+     Serial.println((String)value + " " + words);
+}
+
+void loop() {
+
+}
